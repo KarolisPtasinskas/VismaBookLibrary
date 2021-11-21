@@ -27,7 +27,7 @@
  - [Object] [Command]
 
 Where
- - [Object]: Book
+ - [Object]: books
  - [Commands]: list, filter, add, take, return, delete
 
 Additional:
