@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "Harry Potter and the Sorcerer's Stone",
+    "Author": "J.K. Rowling",
+    "Category": "Fantasy",
+    "Language": "English",
+    "PublicationYear": 1998,
+    "ISBN": "0439708184",
+    "Quantity": 3,
+    "Available": true
+  },
+  {
+    "Name": "Harry Potter and the Chamber of Secrets",
+    "Author": "J. K. Rowling",
+    "Category": "Fantasy",
+    "Language": "English",
+    "PublicationYear": 2000,
+    "ISBN": "0439064872",
+    "Quantity": 3,
+    "Available": true
+  },
+  {
+    "Name": "Harry Potter and the Prisoner of Azkaban",
+    "Author": "J.K. Rowling",
+    "Category": "Fantasy",
+    "Language": "English",
+    "PublicationYear": 2001,
+    "ISBN": "0439136369",
+    "Quantity": 4,
+    "Available": true
+  },
+  {
+    "Name": "Harry Potter and the Goblet of Fire",
+    "Author": "J. K. Rowling",
+    "Category": "Fantasy",
+    "Language": "English",
+    "PublicationYear": 2002,
+    "ISBN": "0439139600",
+    "Quantity": 7,
+    "Available": true
+  },
+  {
+    "Name": "Harry Potter and the Order of the Phoenix",
+    "Author": "J. K. Rowling",
+    "Category": "Fantasy",
+    "Language": "English",
+    "PublicationYear": 2004,
+    "ISBN": "0439358078",
+    "Quantity": 4,
+    "Available": true
+  },
+  {
+    "Name": "Harry Potter and the Order of the Phoenix",
+    "Author": "J. K. Rowling",
+    "Category": "Fantasy",
+    "Language": "English",
+    "PublicationYear": 2004,
+    "ISBN": "0439358078",
+    "Quantity": 4,
+    "Available": true
+  },
+  {
+    "Name": "Harry Potter and the Goblet of Fire",
+    "Author": "J. K. Rowling",
+    "Category": "Fantasy",
+    "Language": "English",
+    "PublicationYear": 2002,
+    "ISBN": "0439139600",
+    "Quantity": 7,
+    "Available": true
+  }
+]
