@@ -1,27 +1,22 @@
 ﻿using System;
 using VismaBookLibary.Controllers;
-using VismaBookLibary.Models;
 
 namespace VismaBookLibary
 {
     class App
     {
         private readonly BooksController booksController;
-
         public App(BooksController booksController)
         {
             this.booksController = booksController;
         }
         public void Run(string commandInput)
         {
-
-
             var additionalInfo = GetSecondaryInfo(commandInput);
             var result = TakeAction(commandInput, additionalInfo);
 
             Console.WriteLine(result);
         }
-
         public string GetSecondaryInfo(string commandInput)
         {
             var mainCommand = commandInput.Split(" ", StringSplitOptions.RemoveEmptyEntries)[1].ToLower();
@@ -36,8 +31,6 @@ namespace VismaBookLibary
                 _ => null,
             };
         }
-
-
         public string TakeAction(string commandInput, string additionalInfo)
         {
             var mainCommand = commandInput.Split(" ", StringSplitOptions.RemoveEmptyEntries)[1].ToLower();

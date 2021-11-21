@@ -17,6 +17,7 @@ namespace VismaBookLibary.Services
         {
             _bookRepository = bookRepository;
         }
+
         public string GetAll()
         {
             var books = _bookRepository.GetAll();
@@ -100,7 +101,6 @@ namespace VismaBookLibary.Services
         }
 
         //Add
-
         public string Add(string bookDTOJson)
         {
             var books = _bookRepository.GetAll();
@@ -122,7 +122,6 @@ namespace VismaBookLibary.Services
         }
 
         //Take
-
         public string Take(string borrowDTOJson)
         {
             if (!CheckCustomerBeforBorrow(borrowDTOJson))
@@ -184,7 +183,6 @@ namespace VismaBookLibary.Services
                 book.Available = false;
 
             _bookRepository.Add(books);
-
             return true;
         }
 
@@ -207,7 +205,6 @@ namespace VismaBookLibary.Services
         }
 
         //Return
-
         public string Return(string returnDTOJson)
         {
             if (!DoBorrowExist(returnDTOJson))
@@ -285,7 +282,6 @@ namespace VismaBookLibary.Services
         }
 
         //Delete
-
         public string Delete(string deleteDTOJson)
         {
             if (!CheckIfBookExistForDelete(deleteDTOJson))
@@ -338,8 +334,5 @@ namespace VismaBookLibary.Services
             books.Remove(bookToRemove);
             _bookRepository.Add(books);
         }
-
-
-
     }
 }

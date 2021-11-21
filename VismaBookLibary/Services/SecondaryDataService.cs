@@ -36,7 +36,6 @@ Possible filters: *name, *author, *category, *language, *isbn, *available";
             return filterDTOJson;
         }
 
-
         public static string GetBookDetails()
         {
             Console.WriteLine();

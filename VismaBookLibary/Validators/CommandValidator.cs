@@ -10,6 +10,7 @@ namespace VismaBookLibary.Models
         {
             ValidateInput(userInput);
         }
+
         public bool Error { get; set; } = false;
         public List<string> ErrorMessages { get; set; } = new();
 

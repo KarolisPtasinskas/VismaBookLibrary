@@ -11,7 +11,6 @@ namespace VismaBookLibary
     {
         public static void Main(string[] args)
         {
-
             var services = new ServiceCollection();
             ConfigureServices(services);
 
@@ -58,11 +57,8 @@ namespace VismaBookLibary
         private static void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IBookRepository<Book>, BookRepository>();
-
             services.AddTransient<BookService>();
-
             services.AddTransient<BooksController>();
-
             services.AddTransient<App>();
         }
     }
